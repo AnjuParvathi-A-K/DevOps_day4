@@ -1,0 +1,9 @@
+def get_user_name_from_input():
+    """ Not empty string. No spaces. """
+    name = input ("Create your user name: ")
+    if (name == " " or ' '  in name):
+        print('Email is not valid.')
+    else:
+        return name
+
+get_user_name_from_input()
